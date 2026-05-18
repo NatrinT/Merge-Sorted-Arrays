@@ -1,7 +1,6 @@
 import { merge } from '../src/merge';
 
 describe('merge(collection_1, collection_2, collection_3)', () => {
-  // Helper: verify ascending order
   const isAscending = (arr: number[]): boolean => {
     for (let i = 1; i < arr.length; i++) {
       if (arr[i] < arr[i - 1]) return false;

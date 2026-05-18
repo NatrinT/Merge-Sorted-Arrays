@@ -9,10 +9,10 @@ export function merge(
 
   const result: number[] = new Array(n1 + n2 + n3);
 
-  let i = 0;          // forward index for collection_1 (asc)
-  let j = n2 - 1;     // backward index for collection_2 (desc -> read asc)
-  let k = 0;          // forward index for collection_3 (asc)
-  let out = 0;        // write index for result
+  let i = 0;
+  let j = n2 - 1;
+  let k = 0;
+  let out = 0;
 
   const INF = Number.POSITIVE_INFINITY;
 
