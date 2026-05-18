@@ -63,7 +63,7 @@ npm --version
 
 ```bash
 # ถ้า clone จาก repo
-git clone [<your-repo-url>](https://github.com/NatrinT/Merge-Sorted-Arrays.git)
+git clone https://github.com/NatrinT/Merge-Sorted-Arrays.git
 cd merge-sorted-arrays
 
 # หรือถ้าสร้างเอง ให้คัดลอกไฟล์ทั้งหมดในโปรเจกต์นี้
